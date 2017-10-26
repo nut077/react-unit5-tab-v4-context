@@ -18,6 +18,6 @@ export default compose(
     tabIndex: PropTypes.number.isRequired
   }),
   getContext({
-    selectedIndex: ({selectedIndex}) => selectedIndex
+    selectedIndex: PropTypes.number.isRequired,
   })
 )(TabPanel)
